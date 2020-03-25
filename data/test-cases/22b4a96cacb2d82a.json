@@ -1,0 +1,66 @@
+{
+  "uid" : "22b4a96cacb2d82a",
+  "name" : "TestLogin.test_two",
+  "fullName" : "test_demo1.TestLogin.test_two",
+  "historyId" : "3241bb00a73fae0fbb0bcf319f8c1190",
+  "time" : {
+    "start" : 1585149764618,
+    "stop" : 1585149764669,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_demo1.TestLogin object at 0x00000211E0800B00>\n\n    def test_two(self):\n>       assert 0\nE       assert 0\n\nscripts\\test_demo1.py:7: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IB61DUS"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "20432-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo1"
+  }, {
+    "name" : "testClass",
+    "value" : "test_demo1"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_two"
+  }, {
+    "name" : "package",
+    "value" : "test_demo1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "22b4a96cacb2d82a.json",
+  "parameterValues" : [ ]
+}
